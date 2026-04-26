@@ -18,7 +18,7 @@ Strokes remain one of the leading causes of death and permanent disability world
 |---|---|
 | Logistic Regression | ~94% |
 | XGBoost | ~94% |
-| Random Forest | — |
+| Random Forest | N/A |
 | Decision Tree | Lower |
 | SVM | Lower |
 
@@ -49,7 +49,7 @@ Strokes remain one of the leading causes of death and permanent disability world
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/stroke-prediction-ml.git
+git clone https://github.com/masood-ahmed-k/stroke-prediction-ml.git
 cd stroke-prediction-ml
 pip install -r requirements.txt
 ```
@@ -66,10 +66,10 @@ jupyter notebook Stroke_Prediction_using_Machine_Learning_Models.ipynb
 
 ## Methodology
 
-1. **Exploratory Data Analysis** — Distribution analysis, correlation checks, and visualizations of key features (age, BMI, glucose level, smoking status, work type).
-2. **Data Preprocessing** — Missing value imputation (BMI column filled with mean), label encoding of categorical variables, and train/test split.
-3. **Model Training** — Five classifiers trained on the preprocessed data.
-4. **Evaluation** — Accuracy scores, classification reports, and ROC-AUC curves compared across all models.
+1. **Exploratory Data Analysis:** Distribution analysis, correlation checks, and visualizations of key features (age, BMI, glucose level, smoking status, work type).
+2. **Data Preprocessing:** Missing value imputation (BMI column filled with mean), label encoding of categorical variables, and train/test split.
+3. **Model Training:** Five classifiers trained on the preprocessed data.
+4. **Evaluation:** Accuracy scores, classification reports, and ROC-AUC curves compared across all models.
 
 ## Recommendations
 
@@ -79,4 +79,4 @@ jupyter notebook Stroke_Prediction_using_Machine_Learning_Models.ipynb
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
